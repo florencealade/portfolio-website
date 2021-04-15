@@ -1,6 +1,6 @@
 John Baskerville
 ==================
-[Version 1](https://github.com/florencealade/portfolio-website/portfolio-website.html)
+[Version 1](https://florencealade.github.io/portfolio-website/portfolio-website.html)
 *07 November 2020*
 Created my first proper web page marking up some plain text with HTML5!
 
