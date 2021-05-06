@@ -9,12 +9,12 @@
 
 /*----- MAIN STYLING -----*/
 body {
-  width: 80%;
-  max-width: 700px;
+  width: 100%;
+  max-width: 1200px;
   margin: auto;
-  background: #8105FE;
+  background: #EFF2F7;
   color: #333;
-  font-family: "Roboto", sans-serif;
+  font-family: "Playfair Display", serif;
 }
 
 /*----- TYPOGRAPHY  -----*/
@@ -24,23 +24,56 @@ h1, h2 {
   text-align: center;
 }
 
-p, blockquote {
-  margin-bottom: 1.5em;
+p {
+  margin-bottom: 2.5em;
+  font-size: 1.5em;
+  color:#333;
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  line-height: 1.5em;
+  text-align: left;
+  margin: 0 20em 10em 0;
+  letter-spacing: 0.10em;
 }
 
-h1, h2, nav, blockquote, footer {
-  font-family: "Libre Baskerville",serif;
+b {
+  color: #8DC2E5;
 }
+
 
 h1 {
-  font-size: 3.827em;
-  margin-top: 3em;
-  margin-bottom: 0.1em;
+  font-size: 5.8em;
+  margin-top: 1.7em;
+  margin-bottom: 0.4em;
+  font-family: "Italiana",serif;
+  color: #7294CD;
+  text-align: left;
+
 }
 
 h2 {
-  font-size: 1.999em;
-  margin: 3em 0 1em 0;
+  font-size: 4em;
+  margin: 1em 0 0.5em 0;
+  color: #7294CD;
+  text-align: center;
+
+}
+
+h4 {
+  margin-bottom: 1.5em;
+  font-size: 1.2em;
+  color:#333;
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  line-height: 1.5em;
+  text-align: center;
+  letter-spacing: 0.10em;
+  padding-left: 50px;
+  padding-bottom: 50px;
+}
+
+p.para {
+  text-align: center;
 }
 
 blockquote {
@@ -101,13 +134,14 @@ nav {
   left: 0;
   margin: 0;
   width: 100%;
-  background-color: #008080;
-  padding: 1em 0;
-  font-size: 0.75em;
+  background-color: #EFF2F7;
+  padding: 1.4em 0;
+  font-size: 1.2em;
+  font-family: "Italiana",serif;
 }
 
 nav ul {
-  text-align: center;
+  text-align: right;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
@@ -119,7 +153,7 @@ nav ul li {
 }
 
 nav a:link {
-  color: #fdfdfd;
+  color: #7295CD;
 }
 
 nav a:visited {
@@ -128,55 +162,79 @@ nav a:visited {
 
 nav a:hover {
   border-bottom: none;
-  color: #73E6E2;
+  color: #8DC2E5;
   transition: all 0.4s ease-in-out;
  }
 
+nav img.monogram {
+  width: 3%;
+  height: 40px;
+  float: center;
+  display: block;
+  margin-top: 1em;
+}
+
+
 
 /*-----IMAGE-----*/
-   img {
-     display: block;
-     margin-left: auto;
-     margin-right: auto;
-     width: 100%;
-   }
-
-/*-----STYLING TABLE-----*/
-table {
-  margin: auto;
-  display: table;
-  border-collapse: collapse;
-  border-spacing: 2px;
-  margin-bottom: 2em;
-  width: 100%;
+img.travelapp {
+ width: 40%;
+ height: 350px;
+ display: block;
+ padding-top: 15px;
+ float: left;
 }
 
-caption {
-  margin: 1.5em 0;
-  text-transform: uppercase:
-}
-
-th {
-  color: #fdfdfd
-  text-transform: uppercase;
-  font-weight: normal;
-  text-align: left;
-  background: #008080;
-}
-
-th, td {
-  padding: 0.7em;
-}
-
-table, td {
-  background: #fdfdfd;
-  border: 2px solid #008080;
+img.infographic {
+ width: 40%;
+ height: 350px;
+ float: center;
+ display: block;
+ padding-left: 750px;
+ float: left;
+ padding-bottom: 200px;
+ padding-top: 0;
 }
 
 
-/*----- FOOTER-----*/
-footer {
-  text-align: center;
-  font-size: 0.707em;
-  padding: 4em 0 8em 0;
+
+/*-----FOOTER-----*/
+
+ footer {
+   background-color: #6307DE;
+   width: 100%;
+   text-align: right;
+   image-orientation: right;
+   padding: 0 0 0 0;
+   height: 15em;
+   outline: inherit;
+   outline color: #7295CD;
+ }
+
+
+
+/*-----IMAGE-----*/
+
+img.default {
+ width: 40%;
+ height: 350px;
+ float: center;
+ display: block;
+ padding: 5px;
+}
+
+img.default2 {
+ width: 40%;
+ height: 350px;
+ float: center;
+ display: block;
+ padding: 5px;
+}
+
+img.default3 {
+ width: 40%;
+ height: 350px;
+ float: center;
+ display: block;
+ padding: 5px;
 }
