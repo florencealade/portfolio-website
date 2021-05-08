@@ -1,0 +1,281 @@
+/*----- CSS Reset -----*/
+
+*{
+  padding: 0;
+  margin: 0;
+  font-size: 100%;
+  line-height: lem;
+}
+
+/*----- MAIN STYLING -----*/
+body {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  color: #7294CD;
+  background-color:  #EFF2F7;
+  font-family: "Playfair Display", serif;
+}
+
+/*----- TYPOGRAPHY  -----*/
+h1, h2 {
+  font-weight: bolder;
+  color: #EFF2F7;
+  text-align: center;
+}
+
+h3{
+
+  font-size: 1.5em;
+  color: #7295CD;
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  line-height: 1.5em;
+  text-align: left;
+padding-bottom: 2em;
+  letter-spacing: 0.10em;
+}
+
+h4 {
+
+  font-size: 1.2em;
+  color: #EFF2F7;
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  line-height: 1.5em;
+  text-align: center;
+  margin: 0 22em 1em 0;
+  letter-spacing: 0.10em;
+
+}
+
+b {
+  color: #eff2f7;
+}
+
+
+h1 {
+  font-size: 5.8em;
+  margin-top: 1.7em;
+  margin-bottom: 0.4em;
+  font-family: "Italiana",serif;
+  color: #EFF2F7;
+  text-align: left;
+
+}
+
+h2 {
+  font-size: 2em;
+  margin: 2.5em 0 0.5em 0;
+  color: #7295CD;
+  text-align: center;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+
+}
+
+h5 {
+  font-size: 2em;
+  margin: 2.5em 0 0.5em 0;
+  color: #EFF2F7;
+  text-align: center;
+  padding-top: 2em;
+  padding-bottom: 3em;
+}
+
+h4 {
+  text-size: 1em;
+  color: #7295CD;
+  text-align: center;
+
+}
+
+
+
+
+
+p {
+  margin-bottom: 2em;
+  font-size: 1.29em;
+  color: #7295CD;
+  font-family: "Playfair Display", serif;
+  font-weight: 500;
+  line-height: 1.5em;
+  text-align: left;
+  letter-spacing: 0.10em;
+  padding-left: 15px;
+  padding-bottom: 50px;
+}
+
+p.para {
+  text-align: center;
+}
+
+
+
+header h2 {
+  font-style: italic;
+  margin-top: 1em;
+  margin-bottom: 1.5em;
+}
+
+header p {
+  font-size: 1.41em;
+  text-align: center;
+}
+
+hr {
+  margin-top: 3em 0;
+  margin-bottom: 2em;
+  height: 2px;
+  background: #8DC2E5;
+  color: #8DC2E5;
+  border: 0 none
+}
+
+.leader {
+  text-transform: uppercase;
+  color: #008080;
+  font-variant-numeric: oldstyle-nums;
+}
+
+/*----- STYLING LINKS -----*/
+a{
+  color: #EFF2F7;
+  text-decoration: none;
+  font-weight: 500;
+  text-align: left;
+
+}
+a:hover {
+  color: #8DC2E5;
+  border-bottom: 1px dotted;
+}
+
+/*----- NAVIGATION -----*/
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: 0;
+  width: 100%;
+  background: #7295CD;
+  padding: 1.4em 0;
+  font-size: 1.2em;
+  font-family: "Italiana",serif;
+  text-align: left;
+  vertical-align:bottom;
+}
+
+nav ul {
+  text-align: right;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  vertical-align:bottom;
+}
+
+nav ul li {
+  display: inline;
+  margin: 20px;
+  background: none;
+  vertical-align:bottom;
+}
+
+nav ul:link {
+  color: #7295CD;
+  vertical-align:bottom;
+}
+
+nav a:link {
+  color: #EFF2F7;
+  padding-right: 500;
+  vertical-align:bottom;
+}
+
+
+nav a:hover {
+  border-bottom: none;
+  color: #8DC2E5;
+  transition: all 0.5s ease-in-out;
+ }
+
+nav img.monogramw {
+  width: 2%;
+  height: 25px;
+padding-left: 4em;
+position: absolute;
+}
+
+
+
+/*-----IMAGE-----*/
+
+
+
+img.infographic {
+  width: 55%;
+  height: 450px;
+ float: center;
+ display: block;
+padding-left: 250px;
+padding-bottom: 5em;
+}
+
+img.info {
+  padding-bottom: 8em;
+}
+
+
+
+
+
+/*-----IMAGE-----*/
+img.in {
+  width: 3%;
+  height: 32.9px;
+  float: center;
+  display: block;
+  padding-left: 520px;
+
+  float: left;
+}
+
+img.ig {
+  width: 3%;
+  height: 32.9px;
+ float: center;
+ display: block;
+ padding-left: 35px;
+
+ float: left;
+}
+
+img.mail {
+  width: 3%;
+  height: 32.9px;
+ float: center;
+ display: block;
+ padding-left: 35px;
+ float: left;
+}
+
+
+/*-----FOOTER-----*/
+
+ footer {
+   background-color: ;
+   width: 100%;
+   text-align: center;
+   image-orientation: right;
+
+   height: 6.5em;
+   outline: inherit;
+   outline color: #7295CD;
+ }
+
+
+
+footer h4 {
+  align: center;
+  padding-left: 448px;
+}
